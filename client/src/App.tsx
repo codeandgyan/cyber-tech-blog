@@ -10,8 +10,8 @@ function App() {
         <Heading />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/cyber-tech-stop" element={<Home />} />
           <Route path="/post/:slug" element={<div>Post Page</div>} />
+          <Route path="/blog" element={<div>Blog Page</div>} />
         </Routes>
       </div>
     </div>
