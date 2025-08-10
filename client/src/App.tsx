@@ -11,7 +11,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/post/:slug" element={<div>Post Page</div>} />
+          <Route path="/articles" element={<div>Articles Page</div>} />
           <Route path="/blog" element={<div>Blog Page</div>} />
+          <Route path="/tech" element={<div>Tech Page</div>} />
+          <Route path="/about" element={<div>About us Page</div>} />
         </Routes>
       </div>
     </div>

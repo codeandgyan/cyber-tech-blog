@@ -11,18 +11,18 @@ const articles = [
   {
     id: "def456",
     headline:
-      "How do hackers steal your passwords do hackers steal your passwords?",
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien?",
     summary:
       "Dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Lorum ipsum dolor.",
-    author: "John Doe",
+    author: "Jane Doe",
   },
   {
     id: "ghi789",
     headline:
-      "How do hackers steal your passwords do hackers steal your passwords?",
+      "Pellentesque sem placerat in id cursus mi pretium tellus duis convallis tempus leo eu aenean sed diam?",
     summary:
       "Dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Lorum ipsum dolor.",
-    author: "John Doe",
+    author: "Robin Smith",
   },
 ];
 function Home() {
