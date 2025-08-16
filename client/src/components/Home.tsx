@@ -27,10 +27,11 @@ const articles = [
 ];
 function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full flex flex-row">
       <div className="w-full lg:w-3/4">
         <ArticleList articles={articles} />
       </div>
+      <div className="hidden lg:block w-1/4 ml-4 mt-4 px-2 border-l-2 border-gray-200 dark:border-gray-700"></div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ function ArticleCard({ article }: Props) {
   return (
     <section
       key={article.id}
-      className="group flex flex-col-reverse sm:flex-row w-full space-x-4 p-2 py-4 relative overflow-hidden cursor-pointer"
+      className="group flex flex-col-reverse sm:flex-row w-full space-x-4 px-2 py-4 relative overflow-hidden cursor-pointer"
     >
       <div className="sm:w-1/3 sm:space-y-4">
         <img
